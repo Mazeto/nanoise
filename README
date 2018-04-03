@@ -1,0 +1,24 @@
+
+Nanoise - Nano Noise
+
+Nanoise is my implementation of the algorithm used by
+Toby Schachman on these videos:
+http://tobyschachman.com/Shadershop/.
+
+I contacted him, but he don't remember where he saw that algo.
+He think it is from the shader comunity. Therefore, this code
+bare no licence.
+
+This algorithm is very different from Perlin Noise.
+
+If you want to intuitively understand how this algorithm works,
+watch the videos on that page and follow the source.
+
+I just finished the implementation, so there's a lot of room
+for improvements and optimizations.
+
+To run the program, type `chmod +x nanoise.c` and run
+`nanoise.c`. Yes, run the source!
+
+It depends on imagemagick to convert from pgm to png.
+But ffmpeg also do the trick. And many other tools.
